@@ -9,7 +9,7 @@ import numpy as np
 import scipy.interpolate
 import scipy.ndimage as ndimage
 
-def scale_variable(ds, variable, scaling_factors, mode = 'nearest', order = 0):
+def scale_variable(variable, scaling_factors, mode = 'nearest', order = 0):
     """This function upscales a given input variable in an xarray Dataset, 
     and outputs the variable as an array with the same lat and lon dimensions as (6312, 1899) using scipy's ndimage.zoom function
     
@@ -24,6 +24,5 @@ def scale_variable(ds, variable, scaling_factors, mode = 'nearest', order = 0):
     See http://scipy.github.io/devdocs/generated/scipy.ndimage.zoom.html#scipy.ndimage.zoom
     
     """
-    var = ds[variable].values
-    var_ = ndimage.zoom(var, (scaling_factors), mode = mode, order = order)
+    var_ = ndimage.zoom(variable, (scaling_factors), mode = mode, order = order)
     return var_

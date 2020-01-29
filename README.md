@@ -4,7 +4,7 @@ Allison Lee
 
 This project was created over the course of 2.5 weeks as part of the <a href='https://flatironschool.com/career-courses/data-science-bootcamp/dc'>Flatiron School Data Science Fellowship in DC<a/>. This project is part of a longer-term goal to explore whether we can use machine learning approaches to predict the spread of wildfires. 
 
-**--Project Status: [Active]
+**--Project Status: [Active]**
 
 ## Project Goal
 

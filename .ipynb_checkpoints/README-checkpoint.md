@@ -2,9 +2,11 @@
 
 Allison Lee
 
+<a href='https://medium.com/@allison.alee/identifying-wildfires-geospatial-data-and-machine-learning-d0877eec33f7?source=friends_link&sk=cdc7ce17f9f1ae6205ac6bd344557c4c'>Blog Post</a> 
+
 This project was created over the course of 2.5 weeks as part of the <a href='https://flatironschool.com/career-courses/data-science-bootcamp/dc'>Flatiron School Data Science Fellowship in DC<a/>. This project is part of a longer-term goal to explore whether we can use machine learning approaches to predict the spread of wildfires. 
 
-**--Project Status: [Active]
+**--Project Status: [Active]**
 
 ## Project Goal
 
@@ -52,7 +54,8 @@ Can we apply machine learning techniques to predict where wildfires are most lik
     - Modeling
     
 
-## Contact
+## Contact   
+    
 Feel free to reach out at allison.alee@gmail.com if you have questions. 
  
 
